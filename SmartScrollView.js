@@ -237,7 +237,7 @@ class SmartScrollView extends Component {
             contentInset                     = { contentInset }
             zoomScale                        = { zoomScale }
             showsVerticalScrollIndicator     = { showsVerticalScrollIndicator }
-            keyboardShouldPersistTaps        = { true }
+            keyboardShouldPersistTaps        = { 'always' }
             bounces                          = { false }
           >
             {content}
@@ -250,7 +250,7 @@ class SmartScrollView extends Component {
 
 const styles = StyleSheet.create({
   flex1: {
-    flex: 1
+    flexGrow: 1
   }
 });
 
