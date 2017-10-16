@@ -1,15 +1,8 @@
 'use strict';
 
-import React, {
-  Component,
-  PropTypes,
-  View,
-  TextInput,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  Switch
-} from 'react-native';
+import PropTypes from 'prop-types';
+
+import React, { Component, View, TextInput, Text, StyleSheet, TouchableOpacity, Switch } from 'react-native';
 
 import SmartScrollView from 'react-native-smart-scroll-view';
 
